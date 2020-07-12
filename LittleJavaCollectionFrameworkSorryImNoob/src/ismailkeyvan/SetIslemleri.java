@@ -72,7 +72,7 @@ public class SetIslemleri {
         
     }
     
-     public static void sil(Set set) {
+    private static void sil(Set set) {
          
         System.out.println("Silmek istediğiniz string'i girin:");
         
@@ -88,14 +88,14 @@ public class SetIslemleri {
     }
      
      
-    public static void goster(Set set) {
+    private static void goster(Set set) {
         
         System.out.println("Set:"+set);
                               
     }
     
      
-    public static void classKontrol(Set set) {
+    private static void classKontrol(Set set) {
         
         System.out.println("Şu anda Set interface'ini implemet eden "+ set.getClass() +" classını kullanıyorsunuz.");
         
