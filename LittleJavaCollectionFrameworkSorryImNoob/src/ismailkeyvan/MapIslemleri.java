@@ -58,7 +58,7 @@ public class MapIslemleri <K,V> {
     }
     
     
-    public void ekle(Map<Integer ,String> map) {
+    private void ekle(Map<Integer ,String> map) {
         
         System.out.println("Integer tipinden anahtarı ve String tipinden eklenecek olan değeri giriniz:");
         System.out.print("Anahtar(Integer):");
