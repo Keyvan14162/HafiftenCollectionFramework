@@ -20,7 +20,7 @@ public class TxtBas {
     
     public static void listBas(List list) {
             
-        System.out.println("Listeyi ekleyeceğiniz txt dosyasının ismini giriniz(.txt olmadan):");
+        System.out.println("List'i ekleyeceğiniz txt dosyasının ismini giriniz(.txt olmadan):");
         String file = scanner.next()+".txt";
         
         try{
@@ -47,7 +47,7 @@ public class TxtBas {
     
     public static void setBas(Set set) {
             
-        System.out.println("Listeyi ekleyeceğiniz txt dosyasının ismini giriniz(.txt olmadan):");
+        System.out.println("Set'i ekleyeceğiniz txt dosyasının ismini giriniz(.txt olmadan):");
         String file = scanner.next()+".txt";
         
         try { 
@@ -71,7 +71,7 @@ public class TxtBas {
   
     public static void mapBas(Map<Integer ,String> map) {
         
-        System.out.println("Listeyi ekleyeceğiniz txt dosyasının ismini giriniz(.txt olmadan):");
+        System.out.println("Map'i ekleyeceğiniz txt dosyasının ismini giriniz(.txt olmadan):");
         String file = scanner.next()+".txt";
         
         try{
