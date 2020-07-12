@@ -73,7 +73,7 @@ public class ListIslemleri {
     }
     
     
-    public static void sil(List list) {
+    private static void sil(List list) {
          
         System.out.println("Silmek istediğiniz string'i girin:");
         
@@ -89,14 +89,14 @@ public class ListIslemleri {
     }
      
     
-    public static void goster(List list) {
+    private static void goster(List list) {
         
         System.out.println("Liste:"+list);
                           
     }
      
     
-    public static void classKontrol(List list) {
+    private static void classKontrol(List list) {
         
         System.out.println("Şu anda List interface'ini implemet eden "+ list.getClass() +" classını kullanıyorsunuz.");
 
